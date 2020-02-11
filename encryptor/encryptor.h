@@ -60,7 +60,8 @@ class Encryptor {
         void decrypt(string old_filename, string new_filename, string encryption_key) {
             encrypt(old_filename, new_filename, encryption_key);
         }
-    
+
+        /* default constructor in case you want to subclass from this */
         Encryptor() {}
         Encryptor(string old_file, string new_file, bool is_decrypt, string encryption_key) {
             if (is_decrypt) {
