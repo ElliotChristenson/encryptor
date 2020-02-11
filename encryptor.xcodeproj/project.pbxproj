@@ -25,6 +25,8 @@
 /* Begin PBXFileReference section */
 		411E528E23EFB9B70067C0E7 /* encryptor */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = encryptor; sourceTree = BUILT_PRODUCTS_DIR; };
 		411E529123EFB9B70067C0E7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		411E52AE23EFD6D30067C0E7 /* command_parser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = command_parser.h; sourceTree = "<group>"; };
+		411E52AF23EFE1670067C0E7 /* encryptor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = encryptor.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,8 @@
 			isa = PBXGroup;
 			children = (
 				411E529123EFB9B70067C0E7 /* main.cpp */,
+				411E52AE23EFD6D30067C0E7 /* command_parser.h */,
+				411E52AF23EFE1670067C0E7 /* encryptor.h */,
 			);
 			path = encryptor;
 			sourceTree = "<group>";
