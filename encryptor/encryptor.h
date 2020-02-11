@@ -44,6 +44,9 @@ class Encryptor {
             unsigned long int keylen = strlen(key);
             while (file_index < size) {
                 for (int key_index = 0; key_index < keylen; key_index++) {
+
+                    /* This is the line where the actual encryption happens                */
+                    /* we do an OR operation on the bytes of the key and the original file */
                     new_file_mem[file_index+key_index] = orig_file_mem[file_index+key_index] ^ key[key_index];
                 }
                 file_index += keylen;
